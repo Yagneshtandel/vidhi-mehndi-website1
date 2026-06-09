@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html>
 <head>
   <title>Vidhi Mehndi Artist 🌸</title>
@@ -8,34 +8,79 @@
       background: linear-gradient(to bottom, #ffe4ec, #ffffff);
       text-align: center;
       margin: 0;
-      font-family: Arial;
+      font-family: 'Segoe UI', sans-serif;
     }
 
     .logo {
-      width: 100px;
+      width: 90px;
       margin-top: 15px;
       border-radius: 50%;
+      box-shadow: 0 0 10px pink;
     }
 
     h2 {
-      color: #ff4d88;
+      color: #ff2e75;
+      margin: 10px 0;
+    }
+
+    /* GRID LAYOUT */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       padding: 10px;
     }
 
     .card {
-      margin: 15px;
+      width: 300px;
+      margin: 12px;
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
     }
 
     .card img {
-      width: 90%;
-      border-radius: 15px;
-      box-shadow: 0 0 10px #ffc0cb;
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
     }
 
     .caption {
-      color: #ff4d88;
+      padding: 10px;
+      color: #ff2e75;
       font-weight: bold;
-      margin-top: 5px;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 10px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .insta {
+      background: #ff2e75;
+    }
+
+    .map {
+      background: #ff99cc;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -43,71 +88,70 @@
 <body>
 
 <img src="logo.png" class="logo">
-
 <h2>🌸 Vidhi Mehndi Artist 🌸</h2>
 
-<div class="card">
-  <a href="portrait.html">
-    <img src="mehndi1.JPG">
-  </a>
-  <div class="caption">Portrait Bridal Mehndi</div>
+<div class="container">
+
+  <div class="card">
+    <a href="portrait.html">
+      <img src="mehndi1.JPG">
+    </a>
+    <div class="caption">Portrait Bridal Mehndi</div>
+  </div>
+
+  <div class="card">
+    <a href="mehndi2.html">
+      <img src="mehndi2.JPG">
+    </a>
+    <div class="caption">Indian Bridal Style</div>
+  </div>
+
+  <div class="card">
+    <a href="mehndi3.html">
+      <img src="mehndi3.JPG">
+    </a>
+    <div class="caption">Designer Mehndi</div>
+  </div>
+
+  <div class="card">
+    <a href="mehndi4.html">
+      <img src="mehndi4.JPG">
+    </a>
+    <div class="caption">Intricate Bridal Design</div>
+  </div>
+
+  <div class="card">
+    <a href="mehndi5.html">
+      <img src="mehndi5.JPG">
+    </a>
+    <div class="caption">Aesthetic Mehndi</div>
+  </div>
+
+  <div class="card">
+    <a href="mehndi6.html">
+      <img src="mehndi6.JPG">
+    </a>
+    <div class="caption">Royal Bridal Mehndi</div>
+  </div>
+
+  <div class="card">
+    <a href="mehndi7.html">
+      <img src="mehndi7.JPG">
+    </a>
+    <div class="caption">Engagement Mehndi</div>
+  </div>
+
 </div>
 
-<div class="card">
-  <a href="mehndi2.html">
-    <img src="mehndi2.JPG">
-  </a>
-  <div class="caption">Indian Bridal Style 1</div>
-</div>
-
-<div class="card">
-  <a href="mehndi3.html">
-    <img src="mehndi3.JPG">
-  </a>
-  <div class="caption">Designer / Contemporary Mehndi 1</div>
-</div>
-
-<div class="card">
-  <a href="mehndi4.html">
-    <img src="mehndi4.JPG">
-  </a>
-  <div class="caption">Intricate Bridal Figure Mehndi Design 1</div>
-</div>
-
-<div class="card">
-  <a href="mehndi5.html">
-    <img src="mehndi5.JPG">
-  </a>
-  <div class="caption">Aesthetic Mehndi Design 1</div>
-</div>
-
-<div class="card">
-  <a href="mehndi6.html">
-    <img src="mehndi6.JPG">
-  </a>
-  <div class="caption">Royal Bridal Mehndi Design 1</div>
-</div>
-
-<div class="card">
-  <a href="mehndi7.html">
-    <img src="mehndi7.JPG">
-  </a>
-  <div class="caption">Engagement Mehndi Style 1</div>
-</div>
-
-<a href="https://instagram.com/mehendi_by_vidhi" target="_blank" 
-   style="display:inline-block; background:#ff4d88; color:white; padding:8px 15px; border-radius:50px; text-decoration:none;">
-  
-  <img src="Instagram.JPG" width="18" style="vertical-align: middle; border-radius:50%;">
-  Follow @mehendi_by_vidhi
+<!-- BUTTONS -->
+<a href="https://instagram.com/mehendi_by_vidhi" target="_blank" class="btn insta">
+  📸 Follow on Instagram
 </a>
-  
-<a href="https://maps.apple.com/place?address=Valsad%2C%2520396385%2C%2520Gujarat%2C%2520India&map=explore&utm_source=ig&utm_medium=social&utm_content=link_in_bio&coordinate=20.715861%2C72.858764&name=My%2520Location&auid=9569150272969110231&lsp=7618" 
-   target="_blank"
-   style="display:inline-flex; align-items:center; gap:5px; background:#ff99cc; color:white; padding:8px 15px; border-radius:50px; text-decoration:none;">
-  
-  📍 <span>Visit Location</span>
+
+<a href="https://maps.apple.com/place?address=Valsad%2C%2520396385%2C%2520Gujarat%2C%2520India" 
+   target="_blank" class="btn map">
+  📍 Visit Location
 </a>
 
 </body>
-</html>
+    </html>
